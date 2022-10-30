@@ -42,7 +42,7 @@ function addBook(e) {
 // delete book
 function deleteBook(e) {
     if(e.target.textContent === 'X') {
-        if(confirm('Are you sure to delete this task?')) {
+        if(confirm('Are you sure to delete this book?')) {
             e.target.parentElement.remove()
             }
     }
